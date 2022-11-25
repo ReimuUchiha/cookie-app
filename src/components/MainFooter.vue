@@ -1,31 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
-  <div class="FooterBackground">
-    <div class="Socials">
-      <button
-        onclick="window.location.href='https://www.facebook.com/midlight.gmbh/';"
-        class="Facebook"
-      >
-        Facebook
-      </button>
-      <button
-        onclick="window.location.href='https://www.instagram.com/chax.at/';"
-        class="Instagram"
-      >
-        Instagram
-      </button>
-      <button
-        onclick="window.location.href='https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fchax-at-midlight-gmbh%2Fposts%2F%3FfeedView%3Dall/';"
-        class="LinkedIn"
-      >
-        LinkedIn
-      </button>
-      <button onclick="window.location.href='https://chax.at/';" class="Chax">
-        Chax
-      </button>
+    <div class="FooterBackground">
+        <div class="Socials">
+            <button onclick="window.location.href='https://www.facebook.com/midlight.gmbh/';" class="Facebook">Facebook</button>
+            <button onclick="window.location.href='https://www.instagram.com/chax.at/';" class="Instagram">Instagram</button>
+            <button onclick="window.location.href='https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fchax-at-midlight-gmbh%2Fposts%2F%3FfeedView%3Dall/';" class="LinkedIn">LinkedIn</button>
+            <button onclick="window.location.href='https://chax.at/';" class="Chax">Chax</button>     
+        </div>
     </div>
-  </div>
 </template>
 
 <style>
@@ -40,7 +24,7 @@ body {
   height: 10vh;
   width: 100vw;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #ffffff93;
 }
 
 .Socials {
@@ -51,4 +35,5 @@ body {
   gap: 5px;
   flex-direction: column;
 }
+
 </style>
